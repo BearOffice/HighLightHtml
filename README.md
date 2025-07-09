@@ -3,6 +3,8 @@ A simple .NET library that generates syntax-highlighted HTML code using [highlig
 
 It’s useful when you want to render highlighted code on the **server side**, rather than relying on client-side rendering.
 
+https://www.nuget.org/packages/HighLightHtml/
+
 ## Usage
 ```csharp
 var html = new HighLight().GetHtml("function a()");
